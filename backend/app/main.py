@@ -10,7 +10,6 @@ from app.routes.mood import router as mood_router
 async def lifespan(app: FastAPI):
     await init_db()  # כאן מתחבר ל־MongoDB
     yield  # כאן מתחיל השרת
-    # אפשר להוסיף כאן קוד סגירה (אם צריך בעתיד)
 
 
 app = FastAPI(
