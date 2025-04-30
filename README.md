@@ -78,3 +78,7 @@
 ---
 
 _עודכן לאחרונה: 29 באפריל 2025_
+
+.venv\Scripts\activate
+cd backend
+uvicorn app.main:app --reload
