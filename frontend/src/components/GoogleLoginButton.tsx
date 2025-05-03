@@ -15,7 +15,7 @@ export default function GoogleLoginButton() {
       dir="rtl"
     >
       <FcGoogle size={20} />
-      התחבר עם Google בדיקה
+      התחבר עם Google
     </a>
   );
 }
