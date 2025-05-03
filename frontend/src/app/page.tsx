@@ -1,5 +1,7 @@
 "use client";
 
+import GoogleLoginButton from "@/components/GoogleLoginButton";
+
 export default function Home() {
   return (
     <main className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 px-4">
@@ -8,13 +10,7 @@ export default function Home() {
       </h1>
       <p className="text-lg text-gray-700 mb-6">מצא את האיזון שבך</p>
 
-      <a
-        href="http://localhost:8000/auth/google/login"
-        className="bg-indigo-600 hover:bg-indigo-700 text-white font-medium py-2 px-4 rounded shadow text-right w-fit"
-        dir="rtl"
-      >
-        התחבר עם Google
-      </a>
+      <GoogleLoginButton />
     </main>
   );
 }
